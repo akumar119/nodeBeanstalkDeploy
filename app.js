@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
     res.send('Welcome to the home page baby.')
 })
 
-const port = process.env.port || 8000
+const port = process.env.PORT || 3000
 app.listen(port, () => {
     console.log(`server is running att port 8080>>>>`)
 })
